@@ -16,3 +16,7 @@ zucc iot 物联网 期末大作业 后端
 mvn package spring-boot:repackage
 
 target\mqp-iot-db-0.0.1-SNAPSHOT.jar
+
+git add .
+git commit -m "app name"
+git push origin master

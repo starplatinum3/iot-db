@@ -1,6 +1,8 @@
 #!/bin/bash
 #这里指定需要运行的jar包的名字
-APP_NAME="your-jar-name.jar"
+# APP_NAME="your-jar-name.jar"
+APP_NAME="mqp-iot-db-0.0.1-SNAPSHOT.jar"
+
 JVM_ARGS="-Xms512M -Xmx2048M -XX:+UseG1GC -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/opt/log/heap.hprof"
 THIN_ARGS="-Dthin.root=. -Dthin.offline=true"
 #使用说明，用来提示输入参数
