@@ -16,7 +16,39 @@ zucc iot 物联网 期末大作业 后端
 mvn package spring-boot:repackage
 
 target\mqp-iot-db-0.0.1-SNAPSHOT.jar
-
-git add .
 git commit -m "app name"
+git add .
+git commit -m "do run"
 git push origin master
+
+ps -ef|grep
+
+ps -ef|grep mqp-iot
+
+http://43.142.150.223:8889/swagger-ui.html#/
+
+[root@VM-12-3-centos iot-db]# find / -name maven
+find: ‘/proc/3255935/task/3255935/net’: 无效的参数
+find: ‘/proc/3255935/net’: 无效的参数
+find: ‘/proc/3258021/task/3258021/net’: 无效的参数
+find: ‘/proc/3258021/net’: 无效的参数
+find: ‘/proc/3259139/task/3259139/net’: 无效的参数
+find: ‘/proc/3259139/net’: 无效的参数
+find: ‘/proc/3290503/task/3290503/net’: 无效的参数
+find: ‘/proc/3290503/net’: 无效的参数
+find: ‘/proc/3299404/task/3299404/net’: 无效的参数
+find: ‘/proc/3299404/net’: 无效的参数
+
+centos  yum  maven 
+
+[root@VM-12-3-centos iot-db]# whereis maven
+maven: /etc/maven /usr/share/maven
+
+vi /etc/maven/settings.xml
+
+
+/home/app/env/maven
+
+
+mvn package spring-boot:repackage
+java -jar target/mqp-iot-db-0.0.1-SNAPSHOT.jar 

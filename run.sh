@@ -47,6 +47,7 @@ run(){
 stop(){
   is_existpid
   if [ $? -eq "0" ]; then
+    echo "kill "
     kill -9 $
   else
     echo "${APP_NAME} is not running"
